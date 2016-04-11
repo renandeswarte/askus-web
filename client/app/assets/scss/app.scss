@@ -1,0 +1,73 @@
+@import "externals/reset";
+@import "externals/bootstrap";
+@import "externals/font-awesome";
+
+@import "tools/variables";
+@import "tools/mixins";
+@import "tools/keyframes-animations";
+
+@import "views/homepage";
+
+html {
+  background-color: $bgColor;
+  -webkit-font-smoothing: antialiased;
+  * {
+    font-family:"Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  button, .btn:focus, .btn, .btn.active, a {
+    outline: 0 !important;
+  }
+}
+
+body {
+  background: none;
+}
+
+// Override Global Buttons style
+.btn.active,
+.btn-primary {
+  background-color: $secondaryColor !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: $whiteColor;
+}
+.btn.inactive {
+  background-color: $lightGreyColor !important;
+}
+.btn-secondary,
+.btn.update {
+  color: $whiteColor;
+  background-color: $greenColor;
+}
+.btn.delete {
+  color: $whiteColor;
+  background-color: $redColor;
+}
+.btn.warning {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+// Fade effect when page load
+.fadein-effect {
+ @include animationEffect(1s, fadeEffect);
+}
+
+// Text truncate
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Clearfix
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+

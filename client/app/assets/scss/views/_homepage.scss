@@ -1,0 +1,51 @@
+.home-page {
+  h1 {
+    color: $mainColor;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .app-icon {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../assets/pictures/logo.png');
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .text-container {
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dotted #CCC;
+  }
+  .app-link {
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #00A1E0;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 0px 5px;
+  }
+  .picture {
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+      border: 1px #CCC solid;
+    }
+  }
+  .contact {
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+}
+
