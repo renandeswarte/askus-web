@@ -22,15 +22,34 @@
         margin-bottom: 10px;
         display: inline-block;
         padding: 0px 10px;
-      img {
-        width: 100%;
-        max-width: 250px;
-        &.android {
-          max-width: 215px;
+        img {
+          width: 100%;
+          max-width: 250px;
+          &.android {
+            max-width: 215px;
+          }
         }
       }
     }
+    .description {
+      text-align: center;
+      h3 {
+        font-weight: bold;
+        font-size: 18px;
+        margin-top: 10px;
+        line-height: 25px;
+        margin-bottom: 0px;
+      }
     }
+    .pictures-container {
+      margin-top: 40px;
+      .picture-container {
+        margin-bottom: 20px;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
     .contact {
       margin-top: 10px;
       margin-bottom: 60px;
