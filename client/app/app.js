@@ -1,7 +1,9 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'myApp.homepage'
+  'myApp.homepage',
+  'myApp.terms',
+  'myApp.privacy'
   ])
 
 // Default route redirection

@@ -1,0 +1,19 @@
+.privacy-page, .terms-page{
+  .content {
+      .back-link {
+        margin: 20px 0px;
+        text-align: center;
+        a {
+          background-color: $mainColor;
+          color: $whiteColor;
+          padding: 10px 10px 8px;
+          border-radius: 10px;
+          text-decoration: none;
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+  }
+}
+
