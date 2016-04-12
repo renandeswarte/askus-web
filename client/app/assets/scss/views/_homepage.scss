@@ -1,51 +1,41 @@
 .home-page {
-  h1 {
-    color: $mainColor;
-    font-size: 30px;
+  .logo-container {
+    background-color: $mainColor;
     text-align: center;
-    font-weight: bold;
-  }
-  .app-icon {
-    width: 200px;
-    height: 200px;
-    background-image: url('../../assets/pictures/logo.png');
-    background-size: cover;
-    margin: 0 auto;
-  }
-  .text-container {
-    margin-bottom: 20px;
-  }
-  h2 {
-    font-size: 20px;
-    margin-top: 40px;
-    font-weight: bold;
-  }
-  h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin-top: 10px;
-    padding-top: 10px;
-    border-top: 1px dotted #CCC;
-  }
-  .app-link {
-    white-space: nowrap;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #00A1E0;
-    border-radius: 5px;
-    color: #FFF;
-    padding: 0px 5px;
-  }
-  .picture {
-    margin-bottom: 20px;
+    padding: 30px 0px;
     img {
-      max-width: 100%;
-      border: 1px #CCC solid;
+      width: 100%;
+      max-width: 250px;
+    }
+    h2 {
+      color: $whiteColor;
+      font-size: 16px;
+      margin-top: -30px;
+      margin-left: -35px;
     }
   }
-  .contact {
-    margin-top: 10px;
-    margin-bottom: 60px;
+  .content {
+    .store {
+      text-align: center;
+      margin: 30px 0px 20px;
+      a {
+        margin-bottom: 10px;
+        display: inline-block;
+        padding: 0px 10px;
+      img {
+        width: 100%;
+        max-width: 250px;
+        &.android {
+          max-width: 215px;
+        }
+      }
+    }
+    }
+    .contact {
+      margin-top: 10px;
+      margin-bottom: 60px;
+    }    
   }
+
 }
 
