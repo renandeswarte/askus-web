@@ -1,7 +1,7 @@
 # AskUs Application Website
 
 Get the App here :
-[AskUs on AppStore](https://URL)
+[AskUs on AppStore](https://itunes.apple.com/us/app/askus/id1102293993)
 
 See App website here :
 [AskUs](https://askus-app.herokuapp.com/#/)
